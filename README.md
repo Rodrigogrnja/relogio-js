@@ -16,23 +16,6 @@ Este projeto é um cronômetro simples desenvolvido com **HTML, CSS e JavaScript
 - CSS
 - JavaScript
 
-## Como funciona
-
-O cronômetro conta os segundos a partir de zero e converte esse valor para o formato de hora utilizando o objeto `Date`.
-
-A função principal responsável pela formatação do tempo é:
-
-```javascript
-function CriarHora(segundos) {
-  const data = new Date(segundos * 1000);
-
-  return data.toLocaleTimeString('pt-BR', {
-    hour12: false,
-    timeZone: 'UTC'
-  });
-}
-
-
 
 O projeto utiliza eventos de clique para identificar qual botão foi pressionado:
 
@@ -50,3 +33,21 @@ Manipulação de classes CSS com classList
 Formatação de tempo com Date
 Objetivo do projeto
 O objetivo deste projeto foi criar um cronômetro funcional e simples, reforçando os fundamentos de JavaScript e a interação entre HTML, CSS e JS.
+
+
+## Como funciona
+
+O cronômetro conta os segundos a partir de zero e converte esse valor para o formato de hora utilizando o objeto `Date`.
+
+A função principal responsável pela formatação do tempo é:
+
+```javascript
+function CriarHora(segundos) {
+  const data = new Date(segundos * 1000);
+
+  return data.toLocaleTimeString('pt-BR', {
+    hour12: false,
+    timeZone: 'UTC'
+  });
+}
+
