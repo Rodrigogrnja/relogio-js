@@ -15,26 +15,6 @@ Este projeto é um cronômetro simples desenvolvido com **HTML, CSS e JavaScript
 - HTML
 - CSS
 - JavaScript
-
-
-O projeto utiliza eventos de clique para identificar qual botão foi pressionado:
-
-Iniciar: começa ou continua a contagem do cronômetro.
-Pausar: interrompe a contagem temporariamente.
-Zerar: reinicia o cronômetro para 00:00:00.
-Aprendizados
-Durante o desenvolvimento deste projeto, foram praticados conceitos importantes de JavaScript, como:
-
-Manipulação do DOM
-Uso de querySelector
-Eventos com addEventListener
-Controle de intervalos com setInterval e clearInterval
-Manipulação de classes CSS com classList
-Formatação de tempo com Date
-Objetivo do projeto
-O objetivo deste projeto foi criar um cronômetro funcional e simples, reforçando os fundamentos de JavaScript e a interação entre HTML, CSS e JS.
-
-
 ## Como funciona
 
 O cronômetro conta os segundos a partir de zero e converte esse valor para o formato de hora utilizando o objeto `Date`.
