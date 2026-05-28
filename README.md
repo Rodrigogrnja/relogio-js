@@ -1,5 +1,5 @@
 # Cronômetro com JavaScript
-
+Link para teste:  https://rodrigogrnja.github.io/relogio-js/
 Este projeto é um cronômetro simples desenvolvido com **HTML, CSS e JavaScript**, criado para praticar manipulação do DOM, eventos de clique e controle de tempo usando `setInterval`.
 
 ## Funcionalidades
